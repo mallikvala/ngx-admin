@@ -47,6 +47,10 @@ const routes: Routes = [{
       path: 'maps',
       loadChildren: () => import('./maps/maps.module')
         .then(m => m.MapsModule),
+    },{
+      path: 'mallik',
+      loadChildren: () => import('./mallik/mallik.module')
+        .then(m => m.MallikModule),
     },
     {
       path: 'charts',

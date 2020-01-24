@@ -165,6 +165,27 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/maps/searchmap',
       },
     ],
+  },{
+    title: 'Mallik',
+    icon: 'map-outline',
+    children: [
+      {
+        title: 'Google Maps',
+        link: '/pages/mallik/gs',
+      },
+      {
+        title: 'Leaflet Maps',
+        link: '/pages/maps/leaflet',
+      },
+      {
+        title: 'Bubble Maps',
+        link: '/pages/maps/bubble',
+      },
+      {
+        title: 'Search Maps',
+        link: '/pages/maps/searchmap',
+      },
+    ],
   },
   {
     title: 'Charts',
